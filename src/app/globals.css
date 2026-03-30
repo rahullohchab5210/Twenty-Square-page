@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
- 
-body{
+
+body {
     font-family: "Inter Tight", sans-serif;
 }
 
@@ -10,7 +10,6 @@ body{
     max-width: 707px;
     max-height: 707px;
     margin: 0 auto;
-    
 }
 
 .swiper-pagination {
