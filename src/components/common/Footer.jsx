@@ -30,12 +30,12 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className=' shadow-[-33px_37px_43.8px_-17px_rgba(0,0,0,0.10)] bg-white max-w-82.5 rounded-2xl pb-[18.38px] pt-[6.62px] pl-[17.89px] w-full -rotate-[3.5deg] '>
+          <div className=' shadow-[-33px_37px_43.8px_-17px_rgba(0,0,0,0.10)] bg-white max-w-82.5 max-h-38 rounded-2xl pb-[18.38px] pt-[6.62px] px-[17.89px] w-full -rotate-[3.5deg] '>
             <img src="/assets/images/webp/questionImage.webp" alt="image" />
-            <h6 className='pb-3 font-semibold text-[24px] leading-[120%] tracking-[0%] text-black'>Need some help?</h6>
+            <h6 className='pb-3 font-semibold text-[24px] leading-[120%] tracking-[0%] bg-linear-to-r from-[#000000] to-[#494949] bg-clip-text text-transparent'>Need some help?</h6>
             <div className='flex flex-row items-center gap-2.5'>
-              <button className='py-2.5 px-4 bg-[#F2F2F2] border border-[#E3E3E3] rounded-[82px]'>Chat With Us</button>
-              <button className='py-2.5 px-4 bg-[#F2F2F2] border border-[#E3E3E3] rounded-[82px]'>Contact Us</button>
+              <button className='py-2.5 px-4 bg-[#F2F2F2] border border-[#E3E3E3] rounded-[82px] font-semibold text-sm leading-[100%] tracking-[0%] text-[#2B2B2B]'>Chat With Us</button>
+              <button className='py-2.5 px-4 bg-[#F2F2F2] border border-[#E3E3E3] rounded-[82px] font-semibold text-sm leading-[100%] tracking-[0%] text-[#2B2B2B]'>Contact Us</button>
             </div>
           </div>
         </div>

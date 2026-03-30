@@ -8,7 +8,7 @@ function SimpleSteps() {
 <> 
       
           <div className='flex flex-col gap-6.75 max-w-137.5 max-[1200px]:max-w-full max-[1200px]:items-center max-[1200px]:justify-center max-[1200px]:text-center max-[1200px]:mx-auto w-full'>
-            <h2 className='font-semibold text-5xl sm:text-6xl lg:text-7xl  leading-[100%] tracking-[0%] text-black'>
+        <h2 className='font-semibold text-5xl sm:text-6xl lg:text-7xl  leading-[100%] tracking-[0%] bg-linear-to-r from-[#000000] to-[#494949] bg-clip-text text-transparent'>
               It's so simple, even a child can do it.
             </h2>
             <div className='flex flex-col'>
@@ -38,7 +38,7 @@ function SimpleSteps() {
               </div>
             </div>
             <Button
-              className="max-w-56.5 text-[16px] hover:bg-white hover:text-[#ED1C25] hover:border-[#ED1C25] border transition-all duration-300"
+          className="max-w-56.5 text-[20px] px-6 py-3.25 hover:bg-white hover:text-[#ED1C25] border-[#ED1C25] shadow-[0px_12px_43.8px_-10px_#ED1C25] border transition-all duration-300"
               text="Square Your Photos"
             />
           </div>

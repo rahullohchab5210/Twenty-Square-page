@@ -66,7 +66,7 @@ function Navbar() {
                                 </button>
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#ED1C25] absolute top-[22%] right-[20%] group-hover:bg-white"></span>
                             </div>
-                            <Button className="text-[16px] max-lg:text-2xl hover:bg-white hover:text-[#ED1C25] hover:border-[#ED1C25] border transition-all duration-300"
+                            <Button className="text-[16px] px-5.75 py-3.25 max-lg:text-2xl hover:bg-white hover:text-[#ED1C25] hover:border-[#ED1C25] border transition-all duration-300"
                                 text="Sign Up/Log In"
                             />
                         </div>
