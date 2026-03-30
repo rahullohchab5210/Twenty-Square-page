@@ -4,11 +4,9 @@ import Slider from './Slider'
 
 function SimpleSteps() {
   return (
-    <div className="w-full mt-[349.08px] max-[1200px]:mt-50 max-lg:mt-25">
-      <div className='max-w-360 px-4 mx-auto'>
-        <div className='flex flex-row justify-between items-center gap-8 max-[1200px]:flex-col max-[1200px]:items-center max-[1200px]:justify-center max-[1200px]:text-center w-full'>
-
-          {/* Left Content */}
+ 
+<> 
+      
           <div className='flex flex-col gap-6.75 max-w-137.5 max-[1200px]:max-w-full max-[1200px]:items-center max-[1200px]:justify-center max-[1200px]:text-center max-[1200px]:mx-auto w-full'>
             <h2 className='font-semibold text-5xl sm:text-6xl lg:text-7xl  leading-[100%] tracking-[0%] text-black'>
               It's so simple, even a child can do it.
@@ -44,13 +42,10 @@ function SimpleSteps() {
               text="Square Your Photos"
             />
           </div>
-          {/* Right Content */}
-          <div className='max-[1200px]:mx-auto max-[1200px]:w-full max-[1200px]:flex max-[1200px]:justify-center'>
-            <Slider />
-          </div>
-        </div>
-      </div>
-    </div>
+          
+          
+    </>
+      
   )
 }
 
